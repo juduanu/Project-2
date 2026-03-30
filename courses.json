@@ -1,0 +1,86 @@
+[
+  {
+    "_id": { "$oid": "ccc000000000000000000001" },
+    "course_code": "CS101",
+    "title": "Introduction to Programming",
+    "credits": 4,
+    "department": { "_id": { "$oid": "aaa000000000000000000001" }, "name": "Computer Science" },
+    "sections": [
+      { "section_id": 1001, "semester": "Fall 2025", "professor": { "_id": { "$oid": "bbb000000000000000000001" }, "name": "Dr. Alice Johnson" }, "classroom": { "room_id": "R101", "capacity": 40 } },
+      { "section_id": 1002, "semester": "Spring 2026", "professor": { "_id": { "$oid": "bbb000000000000000000002" }, "name": "Dr. Bob Smith" }, "classroom": { "room_id": "R202", "capacity": 30 } }
+    ]
+  },
+  {
+    "_id": { "$oid": "ccc000000000000000000002" },
+    "course_code": "CS201",
+    "title": "Data Structures",
+    "credits": 4,
+    "department": { "_id": { "$oid": "aaa000000000000000000001" }, "name": "Computer Science" },
+    "sections": [
+      { "section_id": 1003, "semester": "Fall 2025", "professor": { "_id": { "$oid": "bbb000000000000000000001" }, "name": "Dr. Alice Johnson" }, "classroom": { "room_id": "R303", "capacity": 25 } },
+      { "section_id": 1004, "semester": "Spring 2026", "professor": { "_id": { "$oid": "bbb000000000000000000002" }, "name": "Dr. Bob Smith" }, "classroom": { "room_id": "R101", "capacity": 40 } }
+    ]
+  },
+  {
+    "_id": { "$oid": "ccc000000000000000000003" },
+    "course_code": "CS301",
+    "title": "Algorithms",
+    "credits": 3,
+    "department": { "_id": { "$oid": "aaa000000000000000000001" }, "name": "Computer Science" },
+    "sections": [
+      { "section_id": 1005, "semester": "Fall 2025", "professor": { "_id": { "$oid": "bbb000000000000000000001" }, "name": "Dr. Alice Johnson" }, "classroom": { "room_id": "R404", "capacity": 50 } }
+    ]
+  },
+  {
+    "_id": { "$oid": "ccc000000000000000000004" },
+    "course_code": "MA101",
+    "title": "Calculus I",
+    "credits": 4,
+    "department": { "_id": { "$oid": "aaa000000000000000000002" }, "name": "Mathematics" },
+    "sections": [
+      { "section_id": 2001, "semester": "Fall 2025", "professor": { "_id": { "$oid": "bbb000000000000000000003" }, "name": "Dr. Carol White" }, "classroom": { "room_id": "R202", "capacity": 30 } },
+      { "section_id": 2002, "semester": "Spring 2026", "professor": { "_id": { "$oid": "bbb000000000000000000003" }, "name": "Dr. Carol White" }, "classroom": { "room_id": "R303", "capacity": 25 } }
+    ]
+  },
+  {
+    "_id": { "$oid": "ccc000000000000000000005" },
+    "course_code": "MA201",
+    "title": "Calculus II",
+    "credits": 4,
+    "department": { "_id": { "$oid": "aaa000000000000000000002" }, "name": "Mathematics" },
+    "sections": [
+      { "section_id": 2003, "semester": "Spring 2026", "professor": { "_id": { "$oid": "bbb000000000000000000003" }, "name": "Dr. Carol White" }, "classroom": { "room_id": "R505", "capacity": 20 } }
+    ]
+  },
+  {
+    "_id": { "$oid": "ccc000000000000000000006" },
+    "course_code": "PH101",
+    "title": "General Physics I",
+    "credits": 4,
+    "department": { "_id": { "$oid": "aaa000000000000000000003" }, "name": "Physics" },
+    "sections": [
+      { "section_id": 3001, "semester": "Fall 2025", "professor": { "_id": { "$oid": "bbb000000000000000000004" }, "name": "Dr. David Brown" }, "classroom": { "room_id": "R404", "capacity": 50 } }
+    ]
+  },
+  {
+    "_id": { "$oid": "ccc000000000000000000007" },
+    "course_code": "EN101",
+    "title": "English Composition",
+    "credits": 3,
+    "department": { "_id": { "$oid": "aaa000000000000000000004" }, "name": "English" },
+    "sections": [
+      { "section_id": 4001, "semester": "Fall 2025", "professor": { "_id": { "$oid": "bbb000000000000000000005" }, "name": "Dr. Eva Green" }, "classroom": { "room_id": "R101", "capacity": 40 } },
+      { "section_id": 4002, "semester": "Spring 2026", "professor": { "_id": { "$oid": "bbb000000000000000000005" }, "name": "Dr. Eva Green" }, "classroom": { "room_id": "R202", "capacity": 30 } }
+    ]
+  },
+  {
+    "_id": { "$oid": "ccc000000000000000000008" },
+    "course_code": "EN201",
+    "title": "American Literature",
+    "credits": 3,
+    "department": { "_id": { "$oid": "aaa000000000000000000004" }, "name": "English" },
+    "sections": [
+      { "section_id": 4003, "semester": "Spring 2026", "professor": { "_id": { "$oid": "bbb000000000000000000005" }, "name": "Dr. Eva Green" }, "classroom": { "room_id": "R303", "capacity": 25 } }
+    ]
+  }
+]

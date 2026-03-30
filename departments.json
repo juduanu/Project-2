@@ -1,0 +1,7 @@
+[
+  { "_id": { "$oid": "aaa000000000000000000001" }, "dept_id": 1, "name": "Computer Science", "building": "Ryder Hall", "student_count": 120 },
+  { "_id": { "$oid": "aaa000000000000000000002" }, "dept_id": 2, "name": "Mathematics", "building": "Shillman Hall", "student_count": 85 },
+  { "_id": { "$oid": "aaa000000000000000000003" }, "dept_id": 3, "name": "Physics", "building": "Dana Hall", "student_count": 60 },
+  { "_id": { "$oid": "aaa000000000000000000004" }, "dept_id": 4, "name": "English", "building": "Holmes Hall", "student_count": 95 },
+  { "_id": { "$oid": "aaa000000000000000000005" }, "dept_id": 5, "name": "Business", "building": "Hayden Hall", "student_count": 200 }
+]

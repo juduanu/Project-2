@@ -1,0 +1,51 @@
+[
+  {
+    "_id": { "$oid": "bbb000000000000000000001" },
+    "prof_id": 101,
+    "name": "Dr. Alice Johnson",
+    "department": { "_id": { "$oid": "aaa000000000000000000001" }, "name": "Computer Science" },
+    "sections_taught": [
+      { "course_code": "CS101", "section_id": 1001, "semester": "Fall 2025" },
+      { "course_code": "CS301", "section_id": 1005, "semester": "Fall 2025" }
+    ]
+  },
+  {
+    "_id": { "$oid": "bbb000000000000000000002" },
+    "prof_id": 102,
+    "name": "Dr. Bob Smith",
+    "department": { "_id": { "$oid": "aaa000000000000000000001" }, "name": "Computer Science" },
+    "sections_taught": [
+      { "course_code": "CS101", "section_id": 1002, "semester": "Spring 2026" },
+      { "course_code": "CS201", "section_id": 1004, "semester": "Spring 2026" }
+    ]
+  },
+  {
+    "_id": { "$oid": "bbb000000000000000000003" },
+    "prof_id": 103,
+    "name": "Dr. Carol White",
+    "department": { "_id": { "$oid": "aaa000000000000000000002" }, "name": "Mathematics" },
+    "sections_taught": [
+      { "course_code": "MA101", "section_id": 2001, "semester": "Fall 2025" },
+      { "course_code": "MA201", "section_id": 2003, "semester": "Spring 2026" }
+    ]
+  },
+  {
+    "_id": { "$oid": "bbb000000000000000000004" },
+    "prof_id": 104,
+    "name": "Dr. David Brown",
+    "department": { "_id": { "$oid": "aaa000000000000000000003" }, "name": "Physics" },
+    "sections_taught": [
+      { "course_code": "PH101", "section_id": 3001, "semester": "Fall 2025" }
+    ]
+  },
+  {
+    "_id": { "$oid": "bbb000000000000000000005" },
+    "prof_id": 105,
+    "name": "Dr. Eva Green",
+    "department": { "_id": { "$oid": "aaa000000000000000000004" }, "name": "English" },
+    "sections_taught": [
+      { "course_code": "EN101", "section_id": 4001, "semester": "Fall 2025" },
+      { "course_code": "EN201", "section_id": 4003, "semester": "Spring 2026" }
+    ]
+  }
+]

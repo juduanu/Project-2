@@ -1,0 +1,68 @@
+[
+  {
+    "_id": { "$oid": "ddd000000000000000000001" },
+    "student_id": 501,
+    "name": "Jordan Lee",
+    "major_department": { "_id": { "$oid": "aaa000000000000000000001" }, "name": "Computer Science" },
+    "enrollments": [
+      { "course_code": "CS101", "section_id": 1001, "semester": "Fall 2025", "grade": "A" },
+      { "course_code": "MA101", "section_id": 2001, "semester": "Fall 2025", "grade": "B+" },
+      { "course_code": "CS201", "section_id": 1004, "semester": "Spring 2026", "grade": "A-" }
+    ]
+  },
+  {
+    "_id": { "$oid": "ddd000000000000000000002" },
+    "student_id": 502,
+    "name": "Maria Santos",
+    "major_department": { "_id": { "$oid": "aaa000000000000000000001" }, "name": "Computer Science" },
+    "enrollments": [
+      { "course_code": "CS101", "section_id": 1001, "semester": "Fall 2025", "grade": "B" },
+      { "course_code": "EN101", "section_id": 4001, "semester": "Fall 2025", "grade": "A" },
+      { "course_code": "CS301", "section_id": 1005, "semester": "Fall 2025", "grade": "B+" }
+    ]
+  },
+  {
+    "_id": { "$oid": "ddd000000000000000000003" },
+    "student_id": 503,
+    "name": "Alex Kim",
+    "major_department": { "_id": { "$oid": "aaa000000000000000000002" }, "name": "Mathematics" },
+    "enrollments": [
+      { "course_code": "MA101", "section_id": 2001, "semester": "Fall 2025", "grade": "A+" },
+      { "course_code": "PH101", "section_id": 3001, "semester": "Fall 2025", "grade": "A" },
+      { "course_code": "MA201", "section_id": 2003, "semester": "Spring 2026", "grade": "A" }
+    ]
+  },
+  {
+    "_id": { "$oid": "ddd000000000000000000004" },
+    "student_id": 504,
+    "name": "Taylor Morgan",
+    "major_department": { "_id": { "$oid": "aaa000000000000000000004" }, "name": "English" },
+    "enrollments": [
+      { "course_code": "EN101", "section_id": 4001, "semester": "Fall 2025", "grade": "A-" },
+      { "course_code": "MA101", "section_id": 2001, "semester": "Fall 2025", "grade": "C+" },
+      { "course_code": "EN201", "section_id": 4003, "semester": "Spring 2026", "grade": "A" }
+    ]
+  },
+  {
+    "_id": { "$oid": "ddd000000000000000000005" },
+    "student_id": 505,
+    "name": "Sam Rivera",
+    "major_department": { "_id": { "$oid": "aaa000000000000000000003" }, "name": "Physics" },
+    "enrollments": [
+      { "course_code": "PH101", "section_id": 3001, "semester": "Fall 2025", "grade": "B+" },
+      { "course_code": "MA101", "section_id": 2001, "semester": "Fall 2025", "grade": "B" },
+      { "course_code": "CS101", "section_id": 1002, "semester": "Spring 2026", "grade": "B-" }
+    ]
+  },
+  {
+    "_id": { "$oid": "ddd000000000000000000006" },
+    "student_id": 506,
+    "name": "Casey Park",
+    "major_department": { "_id": { "$oid": "aaa000000000000000000001" }, "name": "Computer Science" },
+    "enrollments": [
+      { "course_code": "CS101", "section_id": 1001, "semester": "Fall 2025", "grade": "A" },
+      { "course_code": "CS201", "section_id": 1003, "semester": "Fall 2025", "grade": "A-" },
+      { "course_code": "CS301", "section_id": 1005, "semester": "Fall 2025", "grade": "B+" }
+    ]
+  }
+]
