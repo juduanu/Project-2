@@ -77,6 +77,10 @@ node queries/queries.js
 
 ---
 
+Youtube video url: https://youtu.be/cHvmvEFlgQE
+
+LucidChart url: https://lucid.app/lucidchart/12faef58-cdd6-4d80-9eb6-40c797c9a4fd/edit?viewport_loc=-64%2C3600%2C2953%2C1593%2C0_0&invitationId=inv_5e4c24b4-1eea-4122-a456-d3d8c10894ed
+
 ## Project Structure
 
 ```
